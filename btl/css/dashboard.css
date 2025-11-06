@@ -1,0 +1,82 @@
+/* ====== LAYOUT CHUNG ====== */
+.page { margin-top: 8px }
+.page-title { display:none } /* dùng toolbar thay cho title */
+.dashboard-wrap{max-width:1200px;margin:0 auto}
+
+/* ====== TOP TOOLBAR ====== */
+.db-toolbar{position:sticky;top:64px;z-index:5}
+.db-toolbar .bar{
+  background:rgba(255,255,255,.85);
+  border:1px solid #e5e7eb; border-radius:16px;
+  backdrop-filter:blur(10px);
+  padding:10px 14px; display:flex; align-items:center; gap:10px;
+  box-shadow:0 6px 20px rgba(30,64,175,.06);
+}
+.db-brand{display:flex;align-items:center;gap:10px;font-weight:800;color:#0f172a}
+.db-brand .mini{width:28px;height:28px;border-radius:8px;object-fit:cover}
+.db-search{flex:1;display:flex;align-items:center;gap:8px}
+.db-search input{
+  width:100%; border:1px solid #e5e7eb; border-radius:12px; padding:10px 12px;
+  font:inherit; background:#fff;
+}
+.db-tabs{display:flex;gap:8px}
+.tab{
+  padding:8px 12px;border-radius:10px;border:1px solid #e5e7eb;background:#fff;cursor:pointer
+}
+.tab.active{background:linear-gradient(#eef2ff,#eaf1ff);color:#1d4ed8;border-color:#cfe0ff;box-shadow:0 6px 16px rgba(29,78,216,.12)}
+
+/* ====== STAT CHIPS ====== */
+.stat-row{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}
+.stat{
+  display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:12px;
+  background:linear-gradient(180deg,#ffffff 0%,#f6fbff 100%);
+  border:1px solid #e6eefb;color:#0f172a;box-shadow:0 8px 20px rgba(36,97,235,.06)
+}
+.badge{font-size:12px;padding:4px 8px;border-radius:999px;background:#ecfeff;border:1px solid #c1effb}
+
+/* ====== GRID 2 CỘT ====== */
+.db-grid{display:grid;grid-template-columns:2fr 1fr;gap:16px}
+
+/* ====== CARD CHUNG ====== */
+.card{
+  background:linear-gradient(180deg,#ffffff 0%,#fcfdff 100%);
+  border:1px solid #e5e7eb;border-radius:18px;padding:14px;
+  box-shadow:0 10px 28px rgba(30,64,175,.08)
+}
+.card + .card{margin-top:12px}
+.card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.card-head h3{font-size:16px}
+
+/* ====== PROGRESS BIG ====== */
+.progress-wrap{margin-top:8px}
+.progress-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.progress-bar{
+  height:10px;background:#eef2ff;border-radius:999px;overflow:hidden
+}
+.progress-bar .v{height:100%;background:linear-gradient(90deg,#60a5fa,#2563eb);width:60%}
+
+/* ====== MINI METRICS ====== */
+.metrics{display:flex;gap:10px;margin-top:10px}
+.metric{flex:1;background:#f8fbff;border:1px dashed #d9e4ff;padding:10px;border-radius:12px;text-align:center}
+.metric b{font-size:18px}
+
+/* ====== LỊCH HÔM NAY ====== */
+.lesson{display:flex;align-items:center;gap:12px;padding:12px;border-top:1px solid #f1f5f9}
+.lesson:first-child{border-top:none}
+.time{min-width:120px;color:#334155;font-weight:600}
+.subject{flex:1}
+.tag{font-size:12px;border:1px solid #fde68a;background:#fff7ed;padding:4px 8px;border-radius:999px;color:#a16207}
+
+/* ====== CỘT PHẢI ====== */
+.goal{display:flex;align-items:center;gap:10px;margin:10px 0}
+.goal .name{flex:1}
+.goal .bar{height:8px;background:#eef2ff;border-radius:999px;overflow:hidden}
+.goal .bar .v{height:100%;background:linear-gradient(90deg,#93c5fd,#2563eb)}
+.note-box textarea{
+  width:100%;border:1px solid #e5e7eb;border-radius:12px;padding:10px;min-height:120px;font:inherit
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 1000px){
+  .db-grid{grid-template-columns:1fr}
+}
