@@ -7,13 +7,18 @@ Hệ điều hành
 <img width="93" height="28" alt="image" src="https://github.com/user-attachments/assets/b2485204-99c1-496e-b323-28d2c0090848" />
 
 Công nghệ chính
-PHP HTML5 CSS SCSS JavaScript Khởi động
+<img width="71" height="28" alt="image" src="https://github.com/user-attachments/assets/1b295979-610f-4868-90e3-7034e8076e3c" />
+<img width="88" height="28" alt="image" src="https://github.com/user-attachments/assets/90f26b5c-3f68-417a-b88a-75451568b0eb" />
+<img width="49" height="28" alt="image" src="https://github.com/user-attachments/assets/b91d9813-5d22-470c-877c-b3120aab634e" />
+<img width="123" height="28" alt="image" src="https://github.com/user-attachments/assets/5afa5cb3-d384-4f80-9d66-257c09ceb38a" />
 
 Máy chủ web và cơ sở dữ liệu
-Người Apache MySQL XAMPP
+<img width="97" height="28" alt="image" src="https://github.com/user-attachments/assets/de87f281-b70f-442b-8651-b5b478771a3f" />
+<img width="88" height="28" alt="image" src="https://github.com/user-attachments/assets/afe0ea66-3561-49a0-a733-4a7ee3de4fdd" />
+<img width="89" height="28" alt="image" src="https://github.com/user-attachments/assets/c9276a9e-2e5a-4ffc-a948-827e41b12c1d" />
 
 Công cụ quản lý cơ sở dữ liệu
-MySQL Workbench
+<img width="179" height="28" alt="image" src="https://github.com/user-attachments/assets/b8f9a20d-65dc-4e73-91c8-5d4177ceedcb" />
 
 🚀 3. Hình ảnh các chức năng
 Trang đăng nhập
