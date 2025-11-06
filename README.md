@@ -50,9 +50,8 @@ MySQL
 4.2. Tải dự án
 Clone project về thư mục htdocscủa XAMPP (ví dụ ổ C):
 cd C:\xampp\htdocs
-(https://github.com/Hung17082005/BTL_Quan_ly_hoc_tap)
 Truy cập project qua đường dẫn:
-👉 http://localhost/authentication_login.
+👉 ((https://github.com/Hung17082005/BTL_Quan_ly_hoc_tap)
 
 4.3. Thiết lập cơ sở dữ liệu
 Mở Control Panel XAMPP, Khởi động Apache và MySQL
